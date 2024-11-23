@@ -1,0 +1,33 @@
+name: myapp
+description: A new Flutter project.
+
+# Prevent the package from being accidentally published to pub.dev.
+publish_to: 'none' # Remove this line to publish to pub.dev
+
+# Define the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/avanza.jpeg
+    - assets/images/brio.jpeg
+    - assets/images/innova.jpeg
+    - assets/images/jazz.jpeg
+    - assets/images/pajero.jpeg
+    - assets/images/panther.jpeg
+    - assets/images/profile.jpeg
